@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -35,3 +36,4 @@ sequenceDiagram
     server-->>browser: [{ "content": "example note", "date": "2024-05-30" }, ... ]
     deactivate server
     Note left of server: Server responds with data.json file
+```
